@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\src\bsp -I..\src\dev -I..\src\lib\inc -I..\src\pro -I..\src\user 
+-I C:\MDK470\ARM\RV31\INC 
+-I C:\MDK470\ARM\CMSIS\Include 
+-I C:\MDK470\ARM\Inc\ST\STM32F10x 
+-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\obj\iwdg.o" --omf_browse "..\obj\iwdg.crf" --depend "..\obj\iwdg.d" "..\src\dev\Iwdg.c"

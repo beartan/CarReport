@@ -1,0 +1,15 @@
+..\obj\system_stm32f10x.o: ..\src\bsp\system_stm32f10x.c
+..\obj\system_stm32f10x.o: ..\src\bsp\stm32f10x.h
+..\obj\system_stm32f10x.o: ..\src\bsp\core_cm3.h
+..\obj\system_stm32f10x.o: C:\MDK470\ARM\ARMCC\bin\..\include\stdint.h
+..\obj\system_stm32f10x.o: ..\src\bsp\system_stm32f10x.h
+..\obj\system_stm32f10x.o: ..\src\bsp\stm32f10x_conf.h
+..\obj\system_stm32f10x.o: ..\src\lib\inc\stm32f10x_can.h
+..\obj\system_stm32f10x.o: ..\src\bsp\stm32f10x.h
+..\obj\system_stm32f10x.o: ..\src\lib\inc\stm32f10x_exti.h
+..\obj\system_stm32f10x.o: ..\src\lib\inc\stm32f10x_flash.h
+..\obj\system_stm32f10x.o: ..\src\lib\inc\stm32f10x_gpio.h
+..\obj\system_stm32f10x.o: ..\src\lib\inc\stm32f10x_iwdg.h
+..\obj\system_stm32f10x.o: ..\src\lib\inc\stm32f10x_rcc.h
+..\obj\system_stm32f10x.o: ..\src\lib\inc\stm32f10x_usart.h
+..\obj\system_stm32f10x.o: ..\src\lib\inc\misc.h

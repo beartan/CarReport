@@ -1,0 +1,5 @@
+--cpu Cortex-M3 -g --apcs=interwork 
+-I C:\MDK470\ARM\RV31\INC 
+-I C:\MDK470\ARM\CMSIS\Include 
+-I C:\MDK470\ARM\Inc\ST\STM32F10x 
+--list "startup_stm32f10x_hd.lst" --xref -o "..\obj\startup_stm32f10x_hd.o" --depend "..\obj\startup_stm32f10x_hd.d" "startup_stm32f10x_hd.s"
